@@ -1,7 +1,7 @@
-let baseUrl = 'http://localhost:5000/api/v1';
+let baseUrl = 'http://ec2-34-210-108-229.us-west-2.compute.amazonaws.com/api/v1';
 
 if (process.env.NODE_ENV && process.env.NODE_ENV === 'development') {
-  baseUrl = 'http://localhost:5000/api/v1';
+  baseUrl = 'http://ec2-34-210-108-229.us-west-2.compute.amazonaws.com/api/v1';
 }
 
 const requestsUrl = `${baseUrl}/requests`;
