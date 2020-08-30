@@ -1,5 +1,5 @@
 """ Module for staff view implementation. """
-from flask_restplus import Resource
+from flask_restx import Resource
 from models import Staff
 from serializers import StaffSchema
 from messages import messages

@@ -34,7 +34,7 @@ flask-cors = "*"
 # DB migration
 flask-migrate = "*"
 # API expressiveness and documentation
-flask-restplus = "*"
+flask-restx = "*"
 # Testing framework
 pytest = "*"
 # Pytest coverage reporting tool
@@ -42,5 +42,3 @@ pytest-cov = "*"
 # Coveralls coverage reporter
 coveralls = "*"
 
-[requires]
-python_version = "3.7"

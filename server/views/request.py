@@ -2,7 +2,7 @@
 from models import Request, Comment
 from serializers import RequestSchema, CommentSchema
 from messages import messages
-from flask_restplus import Resource
+from flask_restx import Resource
 from flask import request
 from .api import api
 

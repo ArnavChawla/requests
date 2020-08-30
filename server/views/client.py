@@ -1,5 +1,5 @@
 """ Module containing client view implementation. """
-from flask_restplus import Resource
+from flask_restx import Resource
 from models import Client
 from serializers import ClientSchema
 from messages import messages
